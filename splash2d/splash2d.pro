@@ -12,8 +12,12 @@ TARGET = splash2d
 TEMPLATE = app
 
 
-SOURCES += main.cpp
+SOURCES += main.cpp \
+    myrect.cpp \
+    bullet.cpp
 
-HEADERS  +=
+HEADERS  += \
+    myrect.h \
+    bullet.h
 
 FORMS    += mainwindow.ui
